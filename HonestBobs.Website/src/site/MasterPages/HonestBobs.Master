@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HonestBobs.master.cs" Inherits="HonestBobs.Website.MasterPages.HonestBobs" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Honest Bob's</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>            
+            <h1><a href="/">Honest Bob's Awesome Emporium</a></h1>
+            <p>The place for Books, Music and more...</p>
+        </header>
+        <asp:ContentPlaceHolder ID="cphBody" runat="server" />
+    </form>
+</body>
+</html>
